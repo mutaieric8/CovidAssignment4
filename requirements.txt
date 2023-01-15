@@ -3,3 +3,5 @@ pandas
 matplotlib
 seaborn
 numpy
+pycountry==22.3.5
+plotly
