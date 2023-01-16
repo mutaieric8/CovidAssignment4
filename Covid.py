@@ -82,7 +82,7 @@ if selection== 'Cases and Deaths Overview':
 
     col3, col4 = st.columns(2)
     with col3:
-      st.markdown('Deaths Overview')
+      st.markdown('Cumulative Deaths Overview')
       deaths=px.choropleth(covid,
                locations="iso_alpha",
                color="Cumulative_deaths", # lifeExp is a column of gapminde
